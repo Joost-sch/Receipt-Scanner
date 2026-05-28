@@ -27,7 +27,7 @@ export default async function handler(req, res) {
 
         // Use Gemini 1.5 Flash - fast and cost-effective for multimodal tasks
         const model = genAI.getGenerativeModel({ 
-            model: "gemini-1.5-flash",
+            model: "gemini-3.5-flash",
             // Force strict JSON output
             generationConfig: { responseMimeType: "application/json" }
         });
