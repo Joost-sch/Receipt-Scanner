@@ -1,0 +1,8 @@
+{
+  "name": "smart-grocery-scanner",
+  "version": "1.0.0",
+  "description": "PWA Grocery Scanner",
+  "dependencies": {
+    "@google/generative-ai": "^0.11.0"
+  }
+}
